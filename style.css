@@ -153,6 +153,69 @@ header{
 .cardbox p{
     padding: 10px;
     text-align: justify;
+    color: gray;
 }
 
 /* Player Info ends Here */
+
+/* Highlight Part Starts Here */
+.highlights{
+    max-width: 145vh;
+    height: 60vh;
+    margin: 0 auto;
+}
+
+.highlight-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.highlight-text{
+    width: 47vh;
+}
+
+.highlight-text h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+
+}
+
+.highlight-text p{
+    color: rgb(108, 108, 108);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.watch-btn01{
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    padding: 0px 20px 1px 20px;
+    background: rgb(224, 44, 109);
+    margin-top: 20px;
+}
+
+.watch-btn01 p{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 15px;
+}
+
+.highlight-img{
+    width: 47vh;
+}
+
+.highlight-img img{
+    width: 500px;
+}
+/* Highlight Part Ends Here */
