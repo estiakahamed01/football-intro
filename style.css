@@ -115,3 +115,44 @@ header{
 }
 /* Header Part Ends Here */
 
+/* Player Info starts Here */
+.player-info{
+    max-width: 145vh;
+    height: 224vh;
+    background-color:rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.players-data{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 111vh;
+    gap: 30px;
+    margin: 0 auto;
+    padding-top: 5vh;
+}
+
+.cardbox{
+    width: 35vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}
+
+.cardbox img{
+    width: 33vh;
+    padding: 10px;
+}
+
+.cardbox h2{
+    padding: 10px;
+}
+
+.cardbox p{
+    padding: 10px;
+    text-align: justify;
+}
+
+/* Player Info ends Here */
