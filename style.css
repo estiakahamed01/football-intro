@@ -161,7 +161,7 @@ header{
 /* Highlight Part Starts Here */
 .highlights{
     max-width: 145vh;
-    height: 60vh;
+    height: 51vh;
     margin: 0 auto;
 }
 
@@ -219,3 +219,31 @@ header{
     width: 500px;
 }
 /* Highlight Part Ends Here */
+
+/* Footer Section Starts Here */
+footer{
+    max-width: 145vh;
+    height: 30vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.football-logo img{
+    width: 450px;
+}
+
+.icon{
+    width: 30px;
+}
+
+.copyright p{
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+/* Footer Section Ends Here */
