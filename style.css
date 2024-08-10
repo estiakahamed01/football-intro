@@ -325,3 +325,153 @@ footer{
     }
 }
 /* For Medium Device ends Here */
+
+/* For Mobile Device Starts Here */
+@media screen and (max-width:576px) {
+    *{
+        
+        margin: 0 auto;
+    }
+
+    header{
+        width: 37vh;
+        height: 70vh;
+    }
+
+    .navbar{
+        max-width: 37vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .ham-icon{
+        display: block;
+        color: white;
+        padding-right: 100px;
+    }
+    .nav-items{
+        display: none;
+    }
+    .head-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-part1 h1{
+        font-size: 37px;
+        font-weight: 700;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+
+    .watch-btn{
+        position: relative;
+        top: 20px;
+        left: -85px;
+    }
+
+    .header-part2 img{
+        width: 300px;
+        position: relative;
+        top: 20px;
+        left: 30px;
+    }
+
+    .nav-login{
+        width: 60px;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px 1px 20px;
+        background: rgb(224, 44, 109);
+    
+    }
+    
+    .nav-login img{
+        width: 20px;
+        height: 20px;
+        
+    }
+    
+    .nav-login p{
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        padding-left: 10px;
+    }
+
+    .player-info{
+        width: 37vh;
+        margin: 0 auto;
+    }
+
+    .players-data{
+        width: 37vh;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .highlights{
+        width: 37vh;
+        margin: 0 auto;
+        position: relative;
+        top: 395vh;
+    }
+
+    .highlight-part{
+        width: 36vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .highlight-text{
+        width: 35vh;
+        padding: 10px;
+        padding-top: -20px;
+    }
+
+    .highlight-text h1{
+        font-size: 33px;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+    }
+
+    .highlight-text p{
+        color: rgb(108, 108, 108);
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+
+    }
+
+    .highlight-img img{
+        width: 320px;
+    }
+
+    .watch-btn01{
+        position: relative;
+        right: 90px;
+        margin-bottom: 20px;
+    }
+
+    .watch-btn01 p{
+        color: white;
+    }
+
+    footer{
+        width: 37vh;
+        position: relative;
+        top: 410vh;
+    }
+
+    .football-logo img{
+        width: 300px;
+    }
+}
+/* For Mobile Device Ends Here */
