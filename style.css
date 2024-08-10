@@ -247,3 +247,81 @@ footer{
     margin-top: 15px;
 }
 /* Footer Section Ends Here */
+
+/* For Medium Device starts Here */
+@media screen and (min-width:576px) and (max-width:992px){
+    .player-info{
+        height: 100vh;
+    }
+    .players-data{
+        grid-template-columns: repeat(2, 1fr);
+        width: 60vh;
+        position: relative;
+        left: -50px;
+    }
+    .highlights{
+        height: 50vh;
+        width: 100vh;
+        position: relative;
+        top: 230vh;
+        justify-content: center;
+    }
+
+    .highlight-part{
+        width: 90vh;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-around; */
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 90px;
+        gap: 50px;
+    }
+    .highlight-img img{
+        width: 350px;
+    }
+
+    .highlight-text{
+        width: 40vh;
+    }
+    
+    .highlight-text h1{
+        font-size: 35px;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+    
+    }
+    
+    .highlight-text p{
+        color: rgb(108, 108, 108);
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .watch-btn01{
+        display: flex;
+        flex-direction: row;
+        color: rgb(255, 255, 255);
+        width: 120px;
+        height: 40px;
+        align-items: center;
+        padding: 0px 20px 1px 20px;
+        background: rgb(224, 44, 109);
+        margin-top: 20px;
+    }
+    
+    .watch-btn01 p{
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400;
+        padding-right: 15px;
+    }
+    footer{
+        position: relative;
+        top: 220vh;
+    }
+}
+/* For Medium Device ends Here */
